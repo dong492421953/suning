@@ -1,0 +1,170 @@
+body{
+
+    height: 1700px;
+    margin: 0px;
+    background-color: #f2f2f2;
+
+}
+
+body .d1{
+
+    position: relative;
+    width: 980px;
+    height: 100px;
+    background-color: #FFCC00;
+
+}
+
+body .d1 .i{
+
+    position: relative;
+    top: 20px;
+    left: 90px;
+    padding-left: 70px;
+    width: 600px;
+    height: 60px;
+    border-radius: 80px;
+    border: 0px;
+    font-size: 28px;
+    color: #f2f2f2;
+
+}
+body .d1 #i1{
+
+    text-align: center;
+    background-color: white;
+    position: relative;
+    top: 15px;
+    left: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 80px;
+    border: 0px;
+    font-size: 20px;
+    color: #2f3430;
+    cursor: pointer;
+
+
+}
+body .d1 #i2{
+
+    text-align: center;
+    background-color: white;
+    position: relative;
+    top: 15px;
+    right: -140px;
+    width: 60px;
+    height: 60px;
+    border-radius: 80px;
+    border: 0px;
+    font-size: 20px;
+    color: #2f3430;
+
+}
+#s{
+
+    position: absolute;
+    border-radius: 50px;
+    left: 160px;
+    top: 25px;
+    width: 50px;
+    height: 50px;
+    border: 0px;
+}
+
+.d {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* 下拉菜单的链接 */
+.d a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.d a:hover {background-color: #f1f1f1}
+
+/* 在鼠标移上去后显示下拉菜单 */
+.d1:hover .d {
+    display: block;
+}
+
+.shop_in{
+
+    position: relative;
+    z-index: 1;
+    margin: 0px;
+    width: 980px;
+    height: 1000px;
+    overflow-x:hidden;
+    overflow-y: auto;
+}
+
+.shop{
+
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    width: 310px;
+    height: 320px;
+    float: left;
+    background-color: #FFCC00;
+    border-radius: 15px;
+    margin-left: 12px;
+
+}
+
+.shop .shop_img{
+
+    width: 310px;
+    height: 270px;
+
+}
+
+.box{
+
+    width: 980px;
+    height: 900px;
+
+}
+
+.shop1{
+
+
+
+    font-size: 40px;
+    color: white;
+    width: 980px;
+    height: 500px;
+    float: left;
+    margin-top: 30px;
+    background-color: red;
+
+
+}
+
+.box .shop_in .shop1 .p{
+
+    position: absolute;
+    right: 30px;
+    bottom: 300px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    width: 30px;
+}
+
+ .bottom{
+     z-index:999;
+     margin: 0px;
+     width: 980px;
+     height: 100px;
+     background-color: white;
+ }

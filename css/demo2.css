@@ -1,0 +1,66 @@
+.div{
+    position:relative;
+    text-align: center;
+    height: 305px;
+    width: 460px;
+    background: white;
+    border: 1px solid ghostwhite;
+
+
+}
+
+.div1{
+    float: left;
+    height: 20px;
+    width: 240px;
+    margin-left: 80px;
+}
+
+.p{
+    float: left;
+    width: 100px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.p1{
+    float: left;
+    margin-right: 15px;
+}
+.button{
+
+    font-size: 10px;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    text-align: center;
+    float: left;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid red;
+    background: white;
+    color: red;
+    margin-left: 5px;
+    margin-top: 17px;
+
+
+}
+
+.img1{
+    position:absolute;
+    margin-left: -450px;
+    margin-top: 60px;
+    width: 146px;
+    height: 235px;
+
+}
+
+.img2{
+    position:absolute;
+    margin-left: -304px;
+    margin-top: 60px;
+    width: 305px;
+    height: 235px;
+}

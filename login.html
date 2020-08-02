@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link type="text/css" rel="stylesheet" href="css/login.css">
+</head>
+<body>
+<div class="head">
+    <div class="d1">
+        <a class="a1" href="">联系客服</a> |<a class="a1" style="margin-left: 10px" href="">用户注册</a>
+    </div>
+</div>
+<div class="d2">
+    <div class="d3">
+    <img id="logo" src="imgs/logo.jpg"><p id="p">欢迎登录苏宁易购</p>
+    </div>
+    <div class="d4"><input id="tel" onblur="checkUser()"type="tel" value="请输手机号"><span id="spanuser"></span></div>
+    <div class="d4"><input id="pass" onblur="checkPassword()" type="password" value="请输密码"><span id="spanupass"></span></div>
+    <button type="button" id="b" onclick="window.location.href = 'home.html'">确认登录</button>
+    <div class="d5">
+        <div>——————&nbsp;&nbsp;&nbsp;&nbsp;其他登录方式&nbsp;&nbsp;&nbsp;&nbsp;——————</div>
+        <div class="d6">
+            <button class="b1" onclick="window.location.href='https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&client_id=101224012&redirect_uri=https%3A%2F%2Fpassport.suning.com%2Fids%2Flogin%3Foauth_provider%3DWapQQProvider%26loginTheme%3Dwap_new%26agentType%3Dwap%26rememberMe%3Dtrue&state=https%3A%2F%2Fmy.suning.com%2Fwap%2Fhome.do'"><img class="i" src="imgs/QQ.jpg"></button>
+            <button class="b1" href=""><img class="i" src="imgs/微信.jpg"></button>
+            <button class="b1" href=""><img class="i" src="imgs/支付宝.jpg"></button>
+            <br>
+
+            &nbsp;&nbsp;我同意<a href="provision.html" style="color: #2f3430">《苏宁易购会员章程》</a>
+
+        </div>
+    </div>
+</div>
+
+</body>
+<!--<script type="text/script" src="js/login.js"></script>-->
+</html>

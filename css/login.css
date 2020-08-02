@@ -1,0 +1,136 @@
+
+
+body{
+    margin: 10px;
+    width: 1200px;
+    height: 2100px;
+}
+.head{
+
+    width: 1200px;
+    height: 70px;
+    margin-top: 10px;
+
+}
+
+.head .d1{
+
+    position: relative;
+    color: lightgrey;
+    font-size: 50px;
+    float: right;
+
+}
+
+.head .a1{
+
+    color: black;
+    font-size: 35px;
+
+}
+
+.d2{
+
+    position: relative;
+    float: left;
+    margin: 80px;
+    width: 1050px;
+    height: 1850px;
+
+}
+.d2 .d3{
+
+    margin-top: 50px;
+    font-size: 50px;
+    width: 1050px;
+    height: 150px;
+
+}
+.d2 .d4{
+
+
+    height: 140px;
+
+}
+
+.d2 .d4 #tel{
+
+    margin-top: 100px;
+    margin-left: 75px;
+    height: 100px;
+    width: 900px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid lightgray;
+    font-size: 45px;
+    color: lightgrey;
+
+}
+.d2 .d4 #pass{
+
+    margin-top: 100px;
+    margin-left: 75px;
+    height: 100px;
+    width: 900px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid lightgray;
+    font-size: 45px;
+    color: lightgrey;
+
+}
+ #p{
+
+    position: absolute;
+    top: 45px;
+    right: 340px;
+    width: 450px;
+    height: 80px;
+    font-size: 50px;
+
+}
+.d2 .d3 #logo{
+
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+
+}
+.d2 #b{
+    height: 120px;
+    width: 800px;
+    margin-left: 120px;
+    margin-top: 300px;
+    border: 0px;
+    font-size: 50px;
+    background-color: #FFCC00;
+    border-radius: 15px;
+}
+.d2 .d5{
+    position: absolute;
+    font-size: 30px;
+    bottom: 200px;
+    left: 220px;
+    color: darkgrey;
+}
+.d6{
+    position: absolute;
+    left: 100px;
+    width: 850px;
+    height: 80px;
+}
+.d6 .b1{
+    margin: 20px;
+    background-color: white;
+    border: 1px solid darkgrey;
+    border-radius: 80px;
+    width: 90px;
+    height: 90px;
+}
+.b1 .i{
+    width: 60px;
+    height: 60px;
+}

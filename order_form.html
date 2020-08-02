@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>订单列表</title>
+    <style>
+
+        body{
+
+            height: 1700px;
+            margin: 0px;
+            background-color: #f2f2f2;
+
+        }
+        .head{
+            position: relative;
+            width: 980px;
+            height: 150px;
+            background-color: #f2f2f2;
+        }
+        .head .i{
+            position: relative;
+            top: 20px;
+            left: 90px;
+            padding-left: 70px;
+            width: 600px;
+            height: 60px;
+            border-radius: 80px;
+            border: 3px solid #FFCC00;
+            font-size: 28px;
+            color: #999999;
+            margin-bottom: 10px;
+        }
+        .head #i1{
+            text-align: center;
+            background-color: white;
+            position: relative;
+            top: 25px;
+            left: 40px;
+            width: 60px;
+            height: 60px;
+            border-radius: 80px;
+            border: 0px;
+            font-size: 40px;
+            color: #2f3430;
+            cursor: pointer;
+        }
+        #s{
+
+            position: absolute;
+            border-radius: 50px;
+            left: 160px;
+            top: 30px;
+            width: 50px;
+            height: 50px;
+            border: 0px;
+        }
+        .order_form{
+
+            width:970px;
+            height: 600px;
+            background-color: white;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            float: left;
+
+        }
+        .shop{
+            background-image: url('imgs/诺基亚.jpg');
+            width: 270px;
+            height: 220px;
+            margin-left: 50px;
+            border-radius: 15px;
+            background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover
+        }
+        .order_form span{
+
+            font-size: 32px;
+            font-family: "Arial Black";
+            font-weight: 600;
+            padding-left: 30px;
+
+        }
+        .z{
+
+            font-weight: 600;
+            font-size: 35px;
+
+        }
+    </style>
+</head>
+<body>
+<div class="head">
+    <input type="button" id="i1" value="<" onclick="window.location.href='home.html'"/>
+    <input class="i" value="请输入订单号" id="find"/>
+    <img id="s" src="imgs/搜索.jpg">
+    <div style="width: 900px; height: 60px; margin-left: 65px;margin-top: 30px">
+    <span class="z" style="margin-right: 75px; ">待付款</span>
+    <span class="z" style="margin-right: 75px; margin-left: 75px;">待发货</span>
+    <span class="z" style="margin-right: 75px; margin-left: 75px;">待收货</span>
+    <span class="z" style="margin-left: 75px; ">待评价</span>
+    </div>
+</div>
+
+<div  style="height: 1600px; width: 980px; overflow-x:hidden; overflow-y: auto; padding: 30px">
+
+    <div class="order_form">
+        <span>诺基亚旗舰店</span>
+        <div style="margin-top: 20px">
+        <div class="shop"></div>
+        <span>诺基亚，放心的手机，安全的手机。飞利浦多功能防水手机，山寨机就是牛！！</span>
+        </div>
+    </div>
+    <div class="order_form">
+        <span>诺基亚旗舰店</span>
+        <div style="margin-top: 20px">
+            <div class="shop"></div>
+            <span></span>
+        </div>
+    </div>
+    <div class="order_form">
+        <span>诺基亚旗舰店</span>
+        <div style="margin-top: 20px">
+            <div class="shop"></div>
+            <span></span>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
