@@ -1,0 +1,76 @@
+body{
+
+    margin: 0px;
+    width: 980px;
+    height: 1670px;
+    background-color: #f2f2f2;
+
+}
+body .face{
+
+    width: 100%;
+    height: 1300px;
+    margin-bottom: 20px;
+    background-color: white;
+
+}
+body .face img{
+
+    width: 980px;
+    height: 900px;
+
+}
+.biaoqian{
+    width: 940px;
+    height: 380px;
+    padding: 20px;
+}
+.jiage{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    width: 890px;
+    height: 77px;
+    font-size: 70px;
+    font-weight: bold;
+    color: red;
+
+}
+.b1{
+
+    position: relative;
+    left: 490px;
+    bottom: 60px;
+    background-color: forestgreen;
+    font-size: 28px;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+
+}
+.bottom{
+
+    margin: 0px;
+    width: 980px;
+    height: 140px;
+    background-color: white;
+}
+
+#window{
+
+    position: fixed;
+    left: 0;
+    display: none;
+    bottom: 0;
+    width: 970px;
+    height: 1000px;
+    background-color: white;
+}
+
+#add:hover #window{
+
+    display: block;
+
+}
+

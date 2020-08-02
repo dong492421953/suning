@@ -3,85 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>商品详情</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-    <style>
-        body{
-
-            margin: 0px;
-            width: 980px;
-            height: 1670px;
-            background-color: #f2f2f2;
-
-        }
-        body .face{
-
-            width: 100%;
-            height: 1300px;
-            margin-bottom: 20px;
-            background-color: white;
-
-        }
-        body .face img{
-
-            width: 980px;
-            height: 900px;
-
-        }
-        .biaoqian{
-              width: 940px;
-              height: 380px;
-              padding: 20px;
-        }
-        .jiage{
-            padding-top: 10px;
-            padding-bottom: 30px;
-            width: 890px;
-            height: 77px;
-            font-size: 70px;
-            font-weight: bold;
-            color: red;
-
-        }
-        .b1{
-
-            position: relative;
-            left: 490px;
-            bottom: 60px;
-            background-color: forestgreen;
-            font-size: 28px;
-            color: white;
-            width: 80px;
-            height: 40px;
-            border-radius: 50px;
-            text-align: center;
-
-        }
-        .bottom{
-
-            margin: 0px;
-            width: 980px;
-            height: 140px;
-            background-color: white;
-        }
-
-        #window{
-
-            position: fixed;
-            left: 0;
-            display: none;
-            bottom: 0;
-            width: 970px;
-            height: 1000px;
-            background-color: white;
-        }
-
-        #add:hover #window{
-
-            display: block;
-
-        }
-
-    </style>
 </head>
 <body>
 <div style="height: 1600px; width: 980px; overflow-x:hidden; overflow-y: auto;">
@@ -169,7 +92,7 @@
     <img src="imgs/店铺.jpg" style="margin-right: 10px; vertical-align: middle">
     <img src="imgs/购物车1.jpg" style="margin-right: 10px; display: inline; vertical-align: middle" onclick="window.location.href='shopping_cart.html'">
     <button style="width: 250px; height: 90px; border-top-left-radius: 15px; border-bottom-left-radius: 15px; font-size: 30px; border: 0px; background-color: #FFCC00; font-weight: 700">立即购买</button>
-    <button id="add" style="width: 250px; height: 90px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; font-size: 30px; border: 0px; background-color: #FF6600; font-weight: 700;" onclick="openwin();">加入购物车</button>
+    <button id="add" style="width: 250px; height: 90px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; font-size: 30px; border: 0px; background-color: #FF6600; font-weight: 700;" >加入购物车</button>
     <div id="window">
 
     </div>
