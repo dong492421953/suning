@@ -89,6 +89,64 @@
             font-size: 35px;
 
         }
+
+        .da{
+            width: 930px;
+            height: 285px;
+            margin-top: 15px;
+            background-color: white;
+            margin-left: 20px;
+        }
+        .tp{
+            width: 386px;
+            display: flex;
+            margin-left: 20px;
+        }
+        .g{
+            width: 386px;
+            height: 47px;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 500px;
+        }
+        .g .gd{
+            width: 66px;
+            height: 28px;
+            text-align: center;
+            margin-left: 20px;
+        }
+        .g .kp{
+            width:88px ;
+            height: 28px;
+            text-align: center;
+            border: solid 1px gainsboro;
+            margin-left: 12px;
+            border-radius: 20px 20px ;
+        }
+        .g .wl{
+            width:88px ;
+            height: 28px;
+            text-align: center;
+            border: solid 1px gainsboro;
+            margin-left: 5px;
+            border-radius: 20px 20px ;
+        }
+        .g .sh{
+            width:88px ;
+            height: 28px;
+            text-align: center;
+            border: solid 1px red;
+            margin-left: 5px;
+            border-radius: 20px 20px ;
+        }
+
+        .bottom{
+            z-index:999;
+            margin: 0px;
+            width: 980px;
+            height: 100px;
+            background-color: white;
+        }
     </style>
 </head>
 <body>
@@ -104,29 +162,56 @@
     </div>
 </div>
 
-<div  style="height: 1600px; width: 980px; overflow-x:hidden; overflow-y: auto; padding: 30px">
+<div style="width: 980px; height: 1460px">
+<div class="da"style="border-radius: 10px 10px">
+    <div class="dm" style="display: flex;margin-left: 10px; height: 47px;line-height: 37px">
+        <div>
+            <img style="width: 15px;height: 15px" src="imgs/诺基亚.jpg" alt="">
+            <span>诺基亚旗舰店</span>
+        </div>
+        <div style="width: 243px">
+            <span style="margin-left: 150px;line-height: 20px;color: red">卖家已发货</span>
+        </div>
+    </div>
+    <div class="tp">
 
-    <div class="order_form">
-        <span>诺基亚旗舰店</span>
-        <div style="margin-top: 20px">
-        <div class="shop"></div>
-        <span>诺基亚，放心的手机，安全的手机。飞利浦多功能防水手机，山寨机就是牛！！</span>
+            <img style="width: 340px;height:149px;" src="imgs/诺基亚.jpg" alt="">
+
+        <div style="display: flex">
+            <div style="margin-left: 5px">
+                <span>120Hz高刷曲面屏，超清1亿拍照模式，高通骁龙865</span>
+                <br>
+                <span style="font-size: 12px;color: silver">300.0gr</span>
+                <br>
+                <span style="color: red;font-size: 12px">七天无理由退换</span>
+            </div>
+            <div>
+                <span>￥1240.00</span>
+                <span class="iconfont">&#xe627;1</span>
+                <br>
+            </div>
         </div>
     </div>
-    <div class="order_form">
-        <span>诺基亚旗舰店</span>
-        <div style="margin-top: 20px">
-            <div class="shop"></div>
-            <span></span>
-        </div>
+    <div class="bx" style="text-align: center;font-size: 12px; width: 100px; margin-left: 160px">保险服务</div>
+    <div>
+        <span style="color: silver;font-size: 20px;margin-left: 30px">总价￥1240.00，优惠￥0.00</span>
+        <span style="font-size:20px">实付款￥1240.00</span>
     </div>
-    <div class="order_form">
-        <span>诺基亚旗舰店</span>
-        <div style="margin-top: 20px">
-            <div class="shop"></div>
-            <span></span>
-        </div>
+    <div class="g" style="margin-left: 500px; ">
+        <div class="gd">更多</div>
+        <div class="kp">申请开票</div>
+        <div class="wl">查看物流</div>
+        <div class="sh">确认收货</div>
     </div>
+</div>
+</div>
+
+<div class="bottom">
+
+    <button style="margin-top: 5px; margin-left: 120px; margin-right: 50px; width: 100px; height: 90px; border: 3px solid lightgray; background-color: white; border-radius: 15px; font-size: 20px; font-weight: bold" onclick="window.location.href='home.html'">首页</button>
+    <button style="margin-top: 5px; margin-left: 50px; margin-right: 50px; width: 100px; height: 90px; border: 3px solid lightgray; background-color: white; border-radius: 15px; font-size: 20px; font-weight: bold">苏宁超市</button>
+    <button style="margin-top: 5px; margin-left: 50px; margin-right: 50px; width: 100px; height: 90px; border: 3px solid lightgray; background-color: white; border-radius: 15px; font-size: 20px; font-weight: bold" onclick="window.location.href='shopping_cart.html'">购物车</button>
+    <button style="margin-top: 5px; margin-left: 50px; margin-right: 50px; width: 100px; height: 90px; border: 3px solid lightgray; background-color: white; border-radius: 15px; font-size: 20px; font-weight: bold">个人中心</button>
 </div>
 </body>
 
