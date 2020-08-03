@@ -3,8 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <title>添加到购物车</title>
+    <style>
+        .div{
+            width: 980px;
+            height: 500px;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #gwc{
+            width: 96%;
+            height: 260.4px;
+            background-color: white;
+            margin: auto;
+        }
+        .ma{
+
+            text-align: center;
+            font-size: 35px;
+            width: 300px;
+            height: 80px;
+            float: left;
+            border: 3px solid #999999;
+            margin-right: 30px;
+
+        }
+    </style>
 </head>
 <body>
+<div class="div">
+    <div id="gwc">
+        <div style="display: flex">
+            <div>
+                <img style="width: 450px;height: 400px; margin-top: 20px" src="imgs/诺基亚.jpg" alt="">
+            </div>
+            <div style="height: 150px;margin-top: 250px">
+                <span style="font-size: 50px"><i style="font-size: 50px">￥</i>3000.00</span>
+                <span style="text-decoration: line-through; font-size: 20px; color: #999999">￥5420.00 2折</span>
 
+                <br> <span style="font-size: 30px">诺基亚 super续航版 + 32GB+256GB 地球引力 5G老年机，砸核桃中的战斗机，欧耶！！！</span>
+            </div>
+        </div>
+        <div style="font-size: 40px; color: black; font-weight: 700">型号</div>
+        <div style="display: flex;width: 100%;margin: auto">
+            <div class="ma" style="font-size: 35px;background-color: #d0d0d0;color: white;margin-left: 50px">经典黑</div>
+            <div class="ma" style="font-size: 35px;margin-left: 50px;">跃动蓝</div>
+            <div class="ma" style="font-size: 35px;margin-left: 50px">闪耀红</div>
+            <div class="ma" style="font-size: 35px; margin-left: 50px">珍珠白</div>
+        </div>
+        <div style="height: 50px; padding: 30px">
+            <span style="font-size: 40px; color: black; font-weight: 700">套餐</span>
+        </div>
+
+        <div style="width: 980px; height: 200px;">
+            <div class="ma" style="margin-bottom: 10px; background-color: #d0d0d0; color: white;"> 套餐1</div>
+            <div class="ma" style="margin-bottom: 10px"> 套餐2</div>
+            <div class="ma"> 套餐3</div>
+            <div class="ma"> 套餐4</div>
+
+        </div>
+        <div style="margin-top: 50px; margin-left:20px; width: 96%;height: 80px;text-align: center;line-height:65px;color: white;background-color: #ffe37e;border-radius: 25px 25px;font-size: 50px" onclick="window.location.href='shopping_cart.html'">确认</div>
+        <div style="margin-top: 50px; margin-left:20px; width: 96%;height: 80px;text-align: center;line-height:65px;color: white;background-color: red; border-radius: 25px 25px;font-size: 50px" onclick="window.location.href='shop.html'">返回</div>
+    </div>
+
+</div>
 </body>
 </html>
